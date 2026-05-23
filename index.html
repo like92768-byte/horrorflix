@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 HORRORFLIX - Nonton Film Horror</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🎬</span>
+                <span class="logo-text">HORROR<span class="logo-accent">FLIX</span></span>
+            </div>
+            <div class="nav-search">
+                <input type="text" id="searchInput" placeholder="🔍 Cari film horror..." oninput="searchMovies(this.value)">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" onclick="showSection('home')">Beranda</a>
+                <a href="#" class="nav-link" onclick="showSection('favorites')">❤️ Favorit</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="heroSection">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" id="heroContent">
+            <!-- Diisi otomatis oleh JavaScript -->
+        </div>
+        <div class="hero-fade"></div>
+    </section>
+
+    <!-- ===== KATEGORI / GENRE ===== -->
+    <section class="categories-bar" id="categoriesBar">
+        <button class="cat-btn active" onclick="filterCategory('semua')">🎬 Semua</button>
+        <button class="cat-btn" onclick="filterCategory('supernatural')">👻 Supernatural</button>
+        <button class="cat-btn" onclick="filterCategory('slasher')">🔪 Slasher</button>
+        <button class="cat-btn" onclick="filterCategory('psikologis')">🧠 Psikologis</button>
+        <button class="cat-btn" onclick="filterCategory('zombie')">🧟 Zombie</button>
+        <button class="cat-btn" onclick="filterCategory('demon')">😈 Demon</button>
+    </section>
+
+    <!-- ===== DAFTAR FILM ===== -->
+    <main class="main-content">
+        <section class="movie-section">
+            <h2 class="section-title">
+                <span class="title-icon">🔥</span>
+                <span id="sectionTitleText">Semua Film Horror</span>
+                <span class="title-line"></span>
+            </h2>
+            <div class="movie-grid" id="movieGrid">
+                <!-- Diisi otomatis oleh JavaScript -->
+            </div>
+            <p class="no-results" id="noResults" style="display:none;">😔 Film tidak ditemukan</p>
+        </section>
+    </main>
+
+    <!-- ===== MODAL DETAIL FILM ===== -->
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+        <div class="modal" id="movieModal" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-hero" id="modalHero">
+                <img id="modalHeroImg" src="" alt="">
+            </div>
+            <div class="modal-body">
+                <h1 class="modal-title" id="modalTitle"></h1>
+                <div class="modal-meta">
+                    <span class="modal-year" id="modalYear"></span>
+                    <span class="modal-rating" id="modalRating"></span>
+                    <span class="modal-duration" id="modalDuration"></span>
+                    <span class="modal-category" id="modalCategory"></span>
+                </div>
+                <p class="modal-description" id="modalDescription"></p>
+
+                <div class="modal-sinopsis">
+                    <h3>📖 Sinopsis</h3>
+                    <p id="modalSinopsis"></p>
+                </div>
+
+                <!-- Video Thumbnail (Trailer) -->
+                <div class="video-section">
+                    <h3>🎥 Trailer</h3>
+                    <a id="modalTrailerLink" href="#" target="_blank" class="video-thumbnail" id="modalVideoThumb">
+                        <img id="modalVideoThumb" src="" alt="Trailer">
+                        <div class="play-btn-large">
+                            <svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-label">▶ Tonton Trailer</span>
+                    </a>
+                </div>
+
+                <!-- Tombol Nonton -->
+                <div class="watch-section">
+                    <a id="modalWatchLink" href="#" target="_blank" class="btn-watch">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        ▶ TONTON SEKARANG
+                    </a>
+                    <button class="btn-favorite" id="modalFavBtn" onclick="toggleFavorite()">
+                        ❤️ Favorit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>🎬 HORROR<span class="logo-accent">FLIX</span></span>
+                <p>Nonton Film Horror Favoritmu Kapan Saja</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#">Beranda</a>
+                <a href="#">Tentang Kami</a>
+                <a href="#">Kontak</a>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#">📘 Facebook</a>
+                <a href="#">📸 Instagram</a>
+                <a href="#">🐦 Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 HorrorFlix. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
