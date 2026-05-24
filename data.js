@@ -14,7 +14,7 @@ const MOVIES = [
         judul: "Janur Ireng: Sewu Dino the Prequel",
         tahun: 2025,
         rating: "⭐ 6.1",
-        durasi: "112 min",
+        durasi: "134 min",
         kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
         poster: "https://www.themoviedb.org/t/p/w1280/f0bnWrwAmx7su492TxIcpBmdfVv.jpg",
@@ -28,18 +28,18 @@ const MOVIES = [
 
     {
         id: 2,
-        judul: "Insidious",
-        tahun: 2010,
+        judul: "Dia Bukan Ibu.",
+        tahun: 2025,
         rating: "⭐ 6.8",
         durasi: "103 min",
         kategori: "supernatural",
         kualitas: "HD",
-        poster: "https://image.tmdb.org/t/p/w500/dL3HMSNaHMOU7xHbpbxYFJm7M1H.jpg",
-        backdrop: "https://image.tmdb.org/t/p/original/mwD5hHWmKQXbGzXmFqJqNqNqJqK.jpg",
-        deskripsi: "Seorang anak jatuh ke dalam koma misterius, dan roh jahat mulai mengincar tubuhnya yang tak berdaya.",
-        sinopsis: "Keluarga Lambert pindah ke rumah baru. Putra mereka, Dalton, koma dan roh jahat mencoba mengambil alih tubuhnya melalui dunia astral.",
-        trailerUrl: "https://www.youtube.com/watch?v=zuZlROpNKHs",
-        videoUrl: "https://www.youtube.com/watch?v=zuZlROpNKHs"
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/52N5rBuHGGUR7MDfMoEb1PH9Ddo.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1066_and_h600_face/lDXfA44dV324HBYaxcsbPKDR2mO.jpg",
+        deskripsi: "Dia Bukan Ibu adalah sebuah film horor Indonesia tahun 2025 yang disutradarai oleh Randolph Zaini dan ditulis oleh Titien Wattimena, Randolph Zaini dan Beta Inggrid Ayu Ningtyas, berdasarkan sebuah thread viral karya Jeropoint di X.",
+        sinopsis: "Setelah kematian ayahnya, ibu Vira mengalami gangguan mental. Untuk memulai hidup baru, keluarga tersebut pindah ke kota baru dan membuka salon rambut bersama. Saat keluarga tersebut berusaha menyesuaikan diri dengan kehidupan baru mereka, ibu Vira, Yanti, mulai menunjukkan perilaku aneh dan kasar yang mengingatkan pada gangguan mentalnya dan menjadi sangat terobsesi dengan kehidupan seksual putranya. Vira mulai menyelidiki kejadian-kejadian aneh tersebut dan menemukan bahwa ritual berbahaya dan kerasukan setan hanyalah puncak gunung es.",
+        trailerUrl: "https://youtu.be/qKt7XFeSmRs?si=GSxGyej_3XBl74KR",
+        videoUrl: "https://www.bilibili.tv/id/video/4798604181116928?bstar_from=bstar-web.ugc-video-detail.playlist.all"
     },
 
     // 👇 Tambahkan film baru di bawah ini (copy template & paste)
