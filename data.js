@@ -59,7 +59,7 @@ const MOVIES = [
     },
 
     {
-        id: 3,
+        id: 4,
         judul: "Keramat 2: Caruban Larang",
         tahun: 2022,
         rating: "⭐ 6.1",
@@ -75,7 +75,7 @@ const MOVIES = [
     },
 
     {
-        id: 4,
+        id: 5,
         judul: "Pengabdi Setan",
         tahun: 2017,
         rating: "⭐ 6.5",
@@ -91,7 +91,7 @@ const MOVIES = [
     },
 
     {
-        id: 5,
+        id: 6,
         judul: "Pengabdi Setan 2: Communion",
         tahun: 2022,
         rating: "⭐ 6.7",
@@ -107,7 +107,7 @@ const MOVIES = [
     },
 
     {
-        id: 6,
+        id: 7,
         judul: "Sebelum Iblis Menjemput",
         tahun: 2018,
         rating: "⭐ 5.9",
@@ -123,7 +123,7 @@ const MOVIES = [
     },
 
     {
-        id: 6,
+        id: 8,
         judul: "Sebelum Iblis Menjemput: Ayat 2",
         tahun: 2020,
         rating: "⭐ 6.0",
