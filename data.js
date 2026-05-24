@@ -74,4 +74,36 @@ const MOVIES = [
         videoUrl: "https://www.bilibili.tv/id/video/4796615149622784?bstar_from=bstar-web.homepage.recommend.all"
     },
 
+    {
+        id: 4,
+        judul: "Pengabdi Setan",
+        tahun: 2017,
+        rating: "⭐ 6.5",
+        durasi: "146 min",
+        kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/xTWgncjZOrMmSjaEwA3DLOxaqf0.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1066_and_h600_face/5PD7GeOq9Npk7wz7QPz1MoK09Mh.jpg",
+        deskripsi: "Film Pengabdi Setan secara garis besar bercerita tentang ancaman dan teror yang dialami sebuah keluarga akibat perjanjian gaib dengan sekte pemuja setan. Sang ibu yang sakit-sakitan awalnya melakukan ritual terlarang demi mendapatkan keturunan dan kekayaan, yang berujung pada malapetaka setelah ia meninggal dunia.",
+        sinopsis: "Setelah sakit aneh selama tiga tahun, Ibu akhirnya meninggal dunia. Bapak lalu memutuskan untuk bekerja di luar kota meninggalkan anak-anak. Tak lama kemudian, anak-anak merasa bahwa Ibu kembali berada di rumah. Situasi menjadi mencekam ketika mereka mengetahui bahwa Ibu datang bukan sekadar untuk menjenguk, melainkan untuk menjemput mereka.",
+        trailerUrl: "https://youtu.be/0hSptYxWB3E?si=OFLh_5x7NVxKIrE2",
+        videoUrl: "https://www.bilibili.tv/id/video/2044191831?bstar_from=bstar-web.homepage.recommend.all"
+    },
+
+    {
+        id: 5,
+        judul: "Pengabdi Setan 2: Communion",
+        tahun: 2022,
+        rating: "⭐ 6.7",
+        durasi: "118 min",
+        kategori: "supernatural, slasher",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://image.tmdb.org/t/p/original/59QlVZJZI29CdFHxQIJRUS66FWT.jpg",
+        backdrop: "https://image.tmdb.org/t/p/original/eW7k7XvPb1f39cdMR4mxrOLTlEq.jpg",
+        deskripsi: "film horor Indonesia karya Joko Anwar yang melanjutkan kisah keluarga Bapak. Setelah selamat dari teror di rumah lama, mereka pindah ke rumah susun (rusun). Mereka percaya rusun akan lebih aman karena banyak penghuni, namun ternyata ancaman sekte pemuja setan dan sosok Ibu jauh lebih berbahaya dan mengintai di antara para tetangga",
+        sinopsis: "Beberapa tahun setelah berhasil menyelamatkan diri dari kejadian mengerikan yang membuat mereka kehilangan ibu dan si bungsu Ian, Rini dan adik-adiknya, Toni dan Bondi, serta Bapak tinggal di rumah susun karena percaya tinggal di rumah susun aman jika terjadi sesuatu karena ada banyak orang. Namun, mereka segera menyadari bahwa tinggal bersama banyak orang mungkin juga sangat berbahaya, jika mereka tidak sangat mengenali siapa saja yang menjadi tetangga mereka. Pada sebuah malam penuh teror, Rini dan Keluarganya harus kembali menyelamatkan diri. Tapi kali ini, mungkin sudah terlambat untuk lari.",
+        trailerUrl: "https://youtu.be/8LIHcd7WfWI?si=y5NWD-os31Bzb5fd",
+        videoUrl: "https://www.bilibili.tv/id/video/2048779003?bstar_from=bstar-web.homepage.recommend.all"
+    },
+
 ];
