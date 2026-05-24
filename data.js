@@ -11,18 +11,18 @@ const MOVIES = [
     // === TEMPLATE TAMBAH FILM (COPY DARI SINI) ===
     {
         id: 1,
-        judul: "The Conjuring",
-        tahun: 2013,
-        rating: "⭐ 7.5",
+        judul: "Janur Ireng: Sewu Dino the Prequel",
+        tahun: 2025,
+        rating: "⭐ 6.1",
         durasi: "112 min",
         kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
-        poster: "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
-        backdrop: "https://image.tmdb.org/t/p/original/xJHokMbljvjQYkuXb34YnQzYq3S.jpg",
-        deskripsi: "Pasangan suami istri Ed dan Lorraine Warren menyelidiki kasus supernatural yang meneror keluarga di rumah terpencil.",
-        sinopsis: "Pada tahun 1971, keluarga Perron pindah ke rumah pertanian di Rhode Island. Kejadian aneh mulai terjadi hingga mereka meminta bantuan paranormal Ed & Lorraine Warren.",
-        trailerUrl: "https://www.youtube.com/watch?v=k10ETZ41q5o",
-        videoUrl: "https://www.youtube.com/watch?v=k10ETZ41q5o"
+        poster: "https://www.themoviedb.org/t/p/w1280/f0bnWrwAmx7su492TxIcpBmdfVv.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1066_and_h600_face/aKpCYwibh3QVnXOoPiNQHosggt2.jpg",
+        deskripsi: "Janur Ireng adalah sebuah film horor Indonesia tahun 2025 yang disutradarai oleh Kimo Stamboel. Film tersebut merupakan prekuel dari film Sewu Dino yang juga diadaptasi dari utas viral karya SimpleMan",
+        sinopsis: "Sabdo dan Intan hidup bahagia meskipun miskin secara materi, tetapi tragedi menimpa mereka ketika rumah orang tua mereka hangus terbakar. Dalam kebingungan mereka tentang tempat tinggal, mereka didekati oleh Arjo Kuncoro, seorang pria yang mengaku sebagai paman mereka—seorang pedagang kaya yang memiliki segalanya. Mereka dibawa ke rumah keluarga Kuncoro, tetapi ternyata Arjo memiliki rencana jahat untuk mengeksploitasi mereka berdua.",
+        trailerUrl: "https://youtu.be/Fb2N0CVc9sQ?si=jBJ67DB2RCzNWv_v",
+        videoUrl: "https://www.bilibili.tv/id/video/4799415255309312?bstar_from=bstar-web.homepage.recommend.all"
     },
     // === AKHIR TEMPLATE (SAMPAI SINI) ===
 
