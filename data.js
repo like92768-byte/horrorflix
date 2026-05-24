@@ -42,21 +42,20 @@ const MOVIES = [
         videoUrl: "https://www.bilibili.tv/id/video/4798604181116928?bstar_from=bstar-web.ugc-video-detail.playlist.all"
     },
 
-    // 👇 Tambahkan film baru di bawah ini (copy template & paste)
-    // {
-    //     id: 3,
-    //     judul: "Judul Film",
-    //     tahun: 2024,
-    //     rating: "⭐ 7.0",
-    //     durasi: "100 min",
-    //     kategori: "supernatural",
-    //     kualitas: "HD",
-    //     poster: "https://link-gambar.jpg",
-    //     backdrop: "https://link-banner.jpg",
-    //     deskripsi: "Deskripsi singkat 1 kalimat.",
-    //     sinopsis: "Sinopsis lengkap film.",
-    //     trailerUrl: "https://youtube.com/xxx",
-    //     videoUrl: "https://link-video.com/xxx"
-    // },
+    {
+        id: 3,
+        judul: "Keramat",
+        tahun: 2009,
+        rating: "⭐ 6.8",
+        durasi: "123 min",
+        kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/g0aWd2Nsbe7fdrsj9TjzitCF24a.jpg",
+        backdrop: "https://image.tmdb.org/t/p/original/nP5KtRVQDUoQMSkZJGaxpR9nmNn.jpg",
+        deskripsi: "Sebuah tim produksi film, berangkat dari Jakarta ke daerah Bantul Yogyakarta dalam rangka persiapan shooting film. Mereka membawa style kota besar, memasuki daerah yang disucikan dan keramat. Mengusik tabu, sehingga kejadian demi kejadian aneh mereka alami, sampai ke titik dimana calon pemeran utama wanita dirasuki roh halus, hingga hilang tanpa jejak.",
+        sinopsis: "Sekelompok pembuat film muda dari Jakarta tiba di Bantul, Yogyakarta untuk mempersiapkan pengambilan gambar. Semuanya berjalan normal hingga hari kedua ketika mereka mulai mengalami fenomena yang tidak dapat dijelaskan.",
+        trailerUrl: " ",
+        videoUrl: "https://www.bilibili.tv/id/video/2008942795?bstar_from=bstar-web.homepage.recommend.all"
+    },
 
 ];
