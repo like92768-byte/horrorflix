@@ -106,4 +106,38 @@ const MOVIES = [
         videoUrl: "https://www.bilibili.tv/id/video/2048779003?bstar_from=bstar-web.homepage.recommend.all"
     },
 
+    {
+        id: 6,
+        judul: "Sebelum Iblis Menjemput",
+        tahun: 2018,
+        rating: "⭐ 5.9",
+        durasi: "110 min",
+        kategori: "demon",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://image.tmdb.org/t/p/original/hnSkCSVvqAxnCTY5jGnRPOOS1yc.jpg",
+        backdrop: "https://image.tmdb.org/t/p/original/aJvn6fVHLdfoEoMWw7IsnsoutIr.jpg",
+        deskripsi: "film horor thriller Indonesia yang dirilis pada Agustus 2018, disutradarai oleh Timo Tjahjanto. Film ini mengikuti kisah kelam Alfie (Chelsea Islan) yang menyelidiki masa lalu ayahnya dan harus menghadapi teror mematikan akibat perjanjian gaib dengan iblis",
+        sinopsis: "Ketika ayahnya yang terasing jatuh ke dalam koma misterius, seorang wanita muda mencari jawaban di vila lamanya, di mana dia dan saudara tirinya mengungkap kebenaran yang kelam.",
+        trailerUrl: "https://youtu.be/BVxLzUwAOPI?si=l20Xkf49iTQLa9lZ",
+        videoUrl: "https://www.bilibili.tv/id/video/2043731366?bstar_from=bstar-web.homepage.recommend.all"
+    },
+
+    {
+        id: 6,
+        judul: "Sebelum Iblis Menjemput: Ayat 2",
+        tahun: 2020,
+        rating: "⭐ 6.0",
+        durasi: "109 min",
+        kategori: "demon",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://image.tmdb.org/t/p/original/hqLQJ3ee8yKRoQbMPQT11JhlYCe.jpg",
+        backdrop: "https://image.tmdb.org/t/p/original/jqUTROL3MnUUY0qwU95gBsSTVRP.jpg",
+        deskripsi: "Berlatar dua tahun setelah kejadian film pertama, sekuel ini melanjutkan kisah Alfie (Chelsea Islan) dan adik tirinya, Nara, yang harus menghadapi teror iblis jauh lebih kelam dari sosok kegelapan yang bangkit untuk merenggut nyawa mereka",
+        sinopsis: "Setelah lolos dari teror sebelumnya, Alfie dihantui oleh bayangan dan mimpi buruk. Masalah semakin memuncak saat sekelompok anak muda dari panti asuhan masa lalu yang kelam, tempat ayah asuh mereka ternyata seorang pemuja iblis, juga menjadi target entitas haus darah.",
+        trailerUrl: "https://youtu.be/yCQNva20XTM?si=eAgN4nYqfP54D-xW",
+        videoUrl: "https://www.bilibili.tv/id/video/2048056242?bstar_from=bstar-web.homepage.recommend.all"
+    },
+
+
+
 ];
