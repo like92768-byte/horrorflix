@@ -58,4 +58,20 @@ const MOVIES = [
         videoUrl: "https://www.bilibili.tv/id/video/2008942795?bstar_from=bstar-web.homepage.recommend.all"
     },
 
+    {
+        id: 3,
+        judul: "Keramat 2: Caruban Larang",
+        tahun: 2022,
+        rating: "⭐ 6.1",
+        durasi: "131 min",
+        kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/A8dWcUw0clsWARfUn6x8xzQbPKU.jpg",
+        backdrop: "https://image.tmdb.org/t/p/original/5FlYu17fSSR59rn33xZEB0UBqas.jpg",
+        deskripsi: "Keramat 2: Caruban Larang (2022) adalah film horor mokumenter (found footage) Indonesia garapan sutradara Monty Tiwa yang menjadi sekuel dari film Keramat (2009). Film ini memadukan atmosfer mencekam dengan sentuhan komedi natural khas generasi muda",
+        sinopsis: "Sekelompok anak muda dari Jakarta berangkat ke Cirebon dengan tujuan berbeda. Arla, Jojo, dan Maura ingin melakukan riset untuk tugas akhir mereka, yang dibantu oleh seorang pembuat film dokumenter bernama Umay. Sementara itu, Ajil dan Keanu adalah YouTuber horor yang membuat konten untuk mempertahankan hidup mereka. Perjalanan mereka menjadi liar dan tak terkendali setelah bertemu Ute, seorang anak indigo yang memiliki agenda rahasia.",
+        trailerUrl: "https://youtu.be/Zk5x99UyR5M?si=Bulq5AySnJkA-cBy",
+        videoUrl: "https://www.bilibili.tv/id/video/4796615149622784?bstar_from=bstar-web.homepage.recommend.all"
+    },
+
 ];
