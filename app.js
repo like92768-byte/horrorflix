@@ -16,38 +16,71 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // 🖼️ HERO SECTION
+// --- GANTI SELURUH BAGIAN HERO CODE DI BAWAH INI ---
+
 function setupHero() {
-    updateHero();
-    heroInterval = setInterval(() => {
-        heroIndex = (heroIndex + 1) % MOVIES.length;
-        updateHero();
+    // Tampilkan hero pertama kali saat web dibuka (ambil semua film)
+    updateHero(MOVIES);
+
+    // Set interval otomatis ganti banner setiap 8 detik
+    setInterval(() => {
+        let currentList;
+        if (currentFilter === 'semua') {
+            currentList = MOVIES;
+        } else {
+            // Ambil hanya film yang sesuai filter saat ini
+            currentList = MOVIES.filter(m => {
+                if (Array.isArray(m.kategori)) return m.kategori.includes(currentFilter);
+                return m.kategori === currentFilter;
+            });
+        }
+        
+        // Jika ada film di kategori ini, update hero
+        if (currentList.length > 0) {
+            updateHero(currentList);
+        }
     }, 8000);
 }
 
-function updateHero() {
-    const movie = MOVIES[heroIndex];
+function updateHero(movieList) {
     const heroBg = document.getElementById('heroBg');
     const heroContent = document.getElementById('heroContent');
 
-    heroBg.style.backgroundImage = `url(${movie.backdrop})`;
-    heroBg.style.opacity = '0';
-    setTimeout(() => { heroBg.style.opacity = '1'; }, 50);
+    // Jika list kosong (misal filter "Zombie" tidak ada filmnya), sembunyikan hero
+    if (!movieList || movieList.length === 0) {
+        if (heroBg) heroBg.style.opacity = '0';
+        return;
+    }
 
-    heroContent.innerHTML = `
-        <div class="hero-badge">🔥 FEATURED</div>
-        <h1 class="hero-title">${movie.judul}</h1>
-        <div class="hero-meta">
-            <span>📅 ${movie.tahun}</span>
-            <span>${movie.rating}</span>
-            <span>⏱ ${movie.durasi}</span>
-            <span>🏷 ${movie.kategori}</span>
-        </div>
-        <p class="hero-desc">${movie.deskripsi}</p>
-        <div class="hero-buttons">
-            <a href="${movie.videoUrl}" target="_blank" class="btn-hero btn-hero-primary">▶ Tonton Sekarang</a>
-            <button class="btn-hero btn-hero-secondary" onclick="openModal(${movie.id})">ℹ️ Detail</button>
-        </div>
-    `;
+    // Pilih film acak dari list yang tersedia
+    const randomIndex = Math.floor(Math.random() * movieList.length);
+    const movie = movieList[randomIndex];
+
+    if (heroBg && heroContent) {
+        heroBg.style.backgroundImage = `url(${movie.backdrop})`;
+        heroBg.style.opacity = '1';
+        
+        // Format kategori untuk ditampilkan (handle array & string)
+        const katDisplay = Array.isArray(movie.kategori) 
+            ? movie.kategori.map(k => k.charAt(0).toUpperCase() + k.slice(1)).join(', ') 
+            : movie.kategori;
+
+        heroContent.innerHTML = `
+            <div class="hero-badge">🔥 FEATURED</div>
+            <h1 class="hero-title">${movie.judul}</h1>
+            <div class="hero-meta">
+                <span>📅 ${movie.tahun}</span>
+                <span>${movie.rating}</span>
+                <span> ${movie.durasi}</span>
+                <span>🏷 ${katDisplay}</span>
+            </div>
+            <p class="hero-desc">${movie.deskripsi}</p>
+            <div class="hero-buttons">
+                <a href="${movie.videoUrl}" target="_blank" class="btn-hero btn-hero-primary">▶ Tonton Sekarang</a>
+                <button class="btn-hero btn-hero-secondary" onclick="openModal(${movie.id})">ℹ️ Detail</button>
+            </div>
+        `;
+    }
 }
 
 // 🎬 RENDER MOVIES
@@ -70,7 +103,9 @@ function renderMovies(moviesToRender) {
                 <div class="card-overlay">
                     <div class="card-play-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
                 </div>
-                <span class="card-category-tag">${Array.isArray(movie.kategori) ? movie.kategori.join(', ').toUpperCase() : movie.kategori.toUpperCase()}</span>
+                <span class="card-category-tag">
+                ${Array.isArray(movie.kategori) ? movie.kategori[0].toUpperCase() : movie.kategori.toUpperCase()}
+                </span>
                 <span class="card-quality">${movie.kualitas}</span>
             </div>
             <div class="card-info">
@@ -87,26 +122,33 @@ function renderMovies(moviesToRender) {
 // 📂 FILTER KATEGORI
 function filterCategory(category) {
     currentFilter = category;
+
+    // 1. Update tampilan tombol aktif
     document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
 
-    let filtered;
+    // 2. Filter data film
+    let filteredMovies;
     if (category === 'semua') {
-        filtered = MOVIES;
+        filteredMovies = MOVIES;
         document.getElementById('sectionTitleText').textContent = 'Semua Film Horror';
     } else {
-        // FILTER BARU: Cek apakah kategori ada di dalam array
-        filtered = MOVIES.filter(m => {
-    // Split string jadi array, lalu cek includes
-    const categories = m.kategori.split(',');
-    return categories.includes(category);
-});
-        
+        filteredMovies = MOVIES.filter(m => {
+            // Cek support array (multiple genre) dan string biasa
+            if (Array.isArray(m.kategori)) {
+                return m.kategori.includes(category);
+            }
+            return m.kategori === category;
+        });
         document.getElementById('sectionTitleText').textContent = 
             `Film ${category.charAt(0).toUpperCase() + category.slice(1)}`;
     }
 
-    renderMovies(filtered);
+    // 3. Render grid film
+    renderMovies(filteredMovies);
+
+    // 4. UPDATE HERO SECTION: Pilih film acak DARI hasil filter
+    updateHero(filteredMovies);
 }
 
 // 🔍 SEARCH
