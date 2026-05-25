@@ -70,7 +70,7 @@ function renderMovies(moviesToRender) {
                 <div class="card-overlay">
                     <div class="card-play-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
                 </div>
-                <span class="card-category-tag">${movie.kategori}</span>
+                <span class="card-category-tag">${Array.isArray(movie.kategori) ? movie.kategori.join(', ').toUpperCase() : movie.kategori.toUpperCase()}</span>
                 <span class="card-quality">${movie.kualitas}</span>
             </div>
             <div class="card-info">
@@ -90,9 +90,22 @@ function filterCategory(category) {
     document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
 
-    let filtered = category === 'semua' ? MOVIES : MOVIES.filter(m => m.kategori === category);
-    document.getElementById('sectionTitleText').textContent = 
-        category === 'semua' ? 'Semua Film Horror' : `Film ${category.charAt(0).toUpperCase() + category.slice(1)}`;
+    let filtered;
+    if (category === 'semua') {
+        filtered = MOVIES;
+        document.getElementById('sectionTitleText').textContent = 'Semua Film Horror';
+    } else {
+        // FILTER BARU: Cek apakah kategori ada di dalam array
+        filtered = MOVIES.filter(m => {
+    // Split string jadi array, lalu cek includes
+    const categories = m.kategori.split(',');
+    return categories.includes(category);
+});
+        
+        document.getElementById('sectionTitleText').textContent = 
+            `Film ${category.charAt(0).toUpperCase() + category.slice(1)}`;
+    }
+
     renderMovies(filtered);
 }
 
