@@ -22,7 +22,7 @@ const MOVIES = [
         deskripsi: "Janur Ireng adalah sebuah film horor Indonesia tahun 2025 yang disutradarai oleh Kimo Stamboel. Film tersebut merupakan prekuel dari film Sewu Dino yang juga diadaptasi dari utas viral karya SimpleMan",
         sinopsis: "Sabdo dan Intan hidup bahagia meskipun miskin secara materi, tetapi tragedi menimpa mereka ketika rumah orang tua mereka hangus terbakar. Dalam kebingungan mereka tentang tempat tinggal, mereka didekati oleh Arjo Kuncoro, seorang pria yang mengaku sebagai paman mereka—seorang pedagang kaya yang memiliki segalanya. Mereka dibawa ke rumah keluarga Kuncoro, tetapi ternyata Arjo memiliki rencana jahat untuk mengeksploitasi mereka berdua.",
         trailerUrl: "https://youtu.be/Fb2N0CVc9sQ?si=jBJ67DB2RCzNWv_v",
-        videoUrl: "https://www.bilibili.tv/id/video/4799415255309312?bstar_from=bstar-web.homepage.recommend.all"
+        videoUrl: "https://www.cineby.sc/movie/1355140?play=true"
     },
     // === AKHIR TEMPLATE (SAMPAI SINI) ===
 
@@ -55,7 +55,7 @@ const MOVIES = [
         deskripsi: "Sebuah tim produksi film, berangkat dari Jakarta ke daerah Bantul Yogyakarta dalam rangka persiapan shooting film. Mereka membawa style kota besar, memasuki daerah yang disucikan dan keramat. Mengusik tabu, sehingga kejadian demi kejadian aneh mereka alami, sampai ke titik dimana calon pemeran utama wanita dirasuki roh halus, hingga hilang tanpa jejak.",
         sinopsis: "Sekelompok pembuat film muda dari Jakarta tiba di Bantul, Yogyakarta untuk mempersiapkan pengambilan gambar. Semuanya berjalan normal hingga hari kedua ketika mereka mulai mengalami fenomena yang tidak dapat dijelaskan.",
         trailerUrl: " ",
-        videoUrl: "https://www.bilibili.tv/id/video/2008942795?bstar_from=bstar-web.homepage.recommend.all"
+        videoUrl: "https://www.cineby.sc/movie/259904?play=true"
     },
 
     {
@@ -87,7 +87,7 @@ const MOVIES = [
         deskripsi: "Film Pengabdi Setan secara garis besar bercerita tentang ancaman dan teror yang dialami sebuah keluarga akibat perjanjian gaib dengan sekte pemuja setan. Sang ibu yang sakit-sakitan awalnya melakukan ritual terlarang demi mendapatkan keturunan dan kekayaan, yang berujung pada malapetaka setelah ia meninggal dunia.",
         sinopsis: "Setelah sakit aneh selama tiga tahun, Ibu akhirnya meninggal dunia. Bapak lalu memutuskan untuk bekerja di luar kota meninggalkan anak-anak. Tak lama kemudian, anak-anak merasa bahwa Ibu kembali berada di rumah. Situasi menjadi mencekam ketika mereka mengetahui bahwa Ibu datang bukan sekadar untuk menjenguk, melainkan untuk menjemput mereka.",
         trailerUrl: "https://youtu.be/0hSptYxWB3E?si=OFLh_5x7NVxKIrE2",
-        videoUrl: "https://www.bilibili.tv/id/video/2044191831?bstar_from=bstar-web.homepage.recommend.all"
+        videoUrl: "https://www.cineby.sc/movie/467012?play=true"
     },
 
     {
@@ -103,7 +103,7 @@ const MOVIES = [
         deskripsi: "film horor Indonesia karya Joko Anwar yang melanjutkan kisah keluarga Bapak. Setelah selamat dari teror di rumah lama, mereka pindah ke rumah susun (rusun). Mereka percaya rusun akan lebih aman karena banyak penghuni, namun ternyata ancaman sekte pemuja setan dan sosok Ibu jauh lebih berbahaya dan mengintai di antara para tetangga",
         sinopsis: "Beberapa tahun setelah berhasil menyelamatkan diri dari kejadian mengerikan yang membuat mereka kehilangan ibu dan si bungsu Ian, Rini dan adik-adiknya, Toni dan Bondi, serta Bapak tinggal di rumah susun karena percaya tinggal di rumah susun aman jika terjadi sesuatu karena ada banyak orang. Namun, mereka segera menyadari bahwa tinggal bersama banyak orang mungkin juga sangat berbahaya, jika mereka tidak sangat mengenali siapa saja yang menjadi tetangga mereka. Pada sebuah malam penuh teror, Rini dan Keluarganya harus kembali menyelamatkan diri. Tapi kali ini, mungkin sudah terlambat untuk lari.",
         trailerUrl: "https://youtu.be/8LIHcd7WfWI?si=y5NWD-os31Bzb5fd",
-        videoUrl: "https://www.bilibili.tv/id/video/2048779003?bstar_from=bstar-web.homepage.recommend.all"
+        videoUrl: "https://www.cineby.sc/movie/925786?play=true"
     },
 
     {
@@ -169,7 +169,6 @@ const MOVIES = [
         trailerUrl: "https://youtu.be/gh9bmTwo9-I?si=paU5tZLVFIdWrO5I",
         videoUrl: "https://www.cineby.sc/movie/39067?play=true"
     },
-
 
 
 
