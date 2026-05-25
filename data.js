@@ -96,7 +96,7 @@ const MOVIES = [
         tahun: 2022,
         rating: "⭐ 6.7",
         durasi: "118 min",
-        kategori: ["supernatural" , "slasher"] , // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kategori: ["supernatural" , "thriler"] , // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
         poster: "https://image.tmdb.org/t/p/original/59QlVZJZI29CdFHxQIJRUS66FWT.jpg",
         backdrop: "https://image.tmdb.org/t/p/original/eW7k7XvPb1f39cdMR4mxrOLTlEq.jpg",
@@ -128,7 +128,7 @@ const MOVIES = [
         tahun: 2020,
         rating: "⭐ 6.0",
         durasi: "109 min",
-        kategori: "demon",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kategori: "demon",  // pilihan: supernatural, thriler, psikologis, zombie, demon
         kualitas: "HD",
         poster: "https://image.tmdb.org/t/p/original/hqLQJ3ee8yKRoQbMPQT11JhlYCe.jpg",
         backdrop: "https://image.tmdb.org/t/p/original/jqUTROL3MnUUY0qwU95gBsSTVRP.jpg",
