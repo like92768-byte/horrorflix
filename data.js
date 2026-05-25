@@ -154,6 +154,23 @@ const MOVIES = [
         videoUrl: "https://www.cineby.sc/movie/590593?play=true"
     },
 
+    {
+        id: 10,
+        judul: "Rumah Dara",
+        tahun: 2009,
+        rating: "⭐ 6.4",
+        durasi: " 135 min",
+        kategori: ["demon", "thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://image.tmdb.org/t/p/original/m0q8PvIN6UFr7vbW1HxKZHOsk4W.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1066_and_h600_face/8yIPeGnWzJZxYimyDCwLc2MGfY3.jpg",
+        deskripsi: "Rumah Dara (dikenal secara internasional dengan judul Macabre) bergenre Horor Slasher dan Gore. Film karya sutradara Mo Brothers (Kimo Stamboel dan Timo Tjahjanto) ini menyajikan ketegangan ekstrem melalui aksi pembantaian, pertumpahan darah, dan teror psikologis dari sebuah keluarga kanibal.",
+        sinopsis: "bercerita tentang Dara, seorang wanita yang sudah hidup sejak zaman Belanda. Ia punya tiga orang anak, Maya (Imelda Therinne), Adam (Arifin Putra) dan Armand (Ruli Lubis). Dara yang tak pernah menua ternyata suka mencincang tubuh manusia, dan aksinya itu didukung penuh oleh ketiga anaknya.",
+        trailerUrl: "https://youtu.be/gh9bmTwo9-I?si=paU5tZLVFIdWrO5I",
+        videoUrl: "https://www.cineby.sc/movie/39067?play=true"
+    },
+
+
 
 
 ];
