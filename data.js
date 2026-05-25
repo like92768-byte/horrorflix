@@ -160,7 +160,7 @@ const MOVIES = [
         tahun: 2009,
         rating: "⭐ 6.4",
         durasi: " 135 min",
-        kategori: ["demon", "thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kategori: "thriler",  // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
         poster: "https://image.tmdb.org/t/p/original/m0q8PvIN6UFr7vbW1HxKZHOsk4W.jpg",
         backdrop: "https://media.themoviedb.org/t/p/w1066_and_h600_face/8yIPeGnWzJZxYimyDCwLc2MGfY3.jpg",
