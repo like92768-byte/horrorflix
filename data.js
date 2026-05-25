@@ -138,6 +138,22 @@ const MOVIES = [
         videoUrl: "https://www.bilibili.tv/id/video/2048056242?bstar_from=bstar-web.homepage.recommend.all"
     },
 
+    {
+        id: 9,
+        judul: "Ratu Ilmu Hitam",
+        tahun: 2019,
+        rating: "⭐ 6.5",
+        durasi: " 139 min",
+        kategori: ["demon", "thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://image.tmdb.org/t/p/original/6ccXFawnYknVMYkcCL30QhEm73j.jpg",
+        backdrop: "https://image.tmdb.org/t/p/original/YNecU1qZ5kMbAEQ6KmBSI7PCMo.jpg",
+        deskripsi: "Ratu Ilmu Hitam merupakan film horror legendaris asli Indonesia pada tahun 1981 yang dibintangi mendiang Suzanna. Dan, digarap ulang oleh rumah produksi Rapi Film pada tahun 2019 dengan menggandeng dua sineas kondang yaitu Kimo Stamboel di kursi sutradara dan Joko Anwar sebagai penulis naskah.",
+        sinopsis: "Hanif membawa Nadya istrinya dan ketiga anak mereka ke panti asuhan tempat Hanif dulu dibesarkan. Pengasuh panti itu, Pak Bandi, sudah sangat tua dan sakit keras, Hanif datang untuk menjenguk setelah bertahun-tahun tidak bertemu. Bukan cuma Hanif yang datang berkunjung, tapi juga dua sahabat Hanif saat tinggal di panti, Anton dan Jefri yang membawa istri-istri mereka. Malam itu mereka semua tiba di panti asuhan yang terletak di luar kota dan jauh dari pemukiman penduduk itu. Mereka bermaksud bermalam di sana untuk memberikan penghormatan terakhir buat orang yang telah mengasuh mereka sejak kecil. Mereka menyangka malam itu akan jadi malam yang penuh kedamaian. Mereka segera memahami bahwa mereka salah.",
+        trailerUrl: "https://youtu.be/594PxKASQfg?si=rxxhehnHIjeuiBfu",
+        videoUrl: "https://www.cineby.sc/movie/590593?play=true"
+    },
+
 
 
 ];
