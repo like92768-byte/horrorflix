@@ -154,14 +154,38 @@ function filterCategory(category) {
 // 🔍 SEARCH
 function searchMovies(query) {
     query = query.toLowerCase().trim();
-    let filtered = MOVIES.filter(m => 
-        m.judul.toLowerCase().includes(query) || 
-        m.kategori.toLowerCase().includes(query) || 
-        m.deskripsi.toLowerCase().includes(query) || 
-        m.tahun.toString().includes(query)
-    );
-    if (currentFilter !== 'semua') filtered = filtered.filter(m => m.kategori === currentFilter);
-    document.getElementById('sectionTitleText').textContent = query ? `Hasil pencarian "${query}"` : 'Semua Film Horror';
+    
+    // Filter utama berdasarkan pencarian
+    let filtered = MOVIES.filter(movie => {
+        const matchJudul = movie.judul.toLowerCase().includes(query);
+        const matchDeskripsi = movie.deskripsi.toLowerCase().includes(query);
+        const matchTahun = movie.tahun.toString().includes(query);
+        
+        // Cek kategori (support ARRAY & STRING)
+        let matchKategori = false;
+        if (Array.isArray(movie.kategori)) {
+            matchKategori = movie.kategori.some(k => k.toLowerCase().includes(query));
+        } else {
+            matchKategori = movie.kategori.toLowerCase().includes(query);
+        }
+
+        return matchJudul || matchDeskripsi || matchTahun || matchKategori;
+    });
+
+    // Jika ada filter kategori aktif, gabungkan dengan hasil pencarian
+    if (currentFilter !== 'semua') {
+        filtered = filtered.filter(m => {
+            if (Array.isArray(m.kategori)) return m.kategori.includes(currentFilter);
+            return m.kategori === currentFilter;
+        });
+    }
+
+    // Update judul section & render
+    const titleText = query 
+        ? `Hasil pencarian "${query}"` 
+        : (currentFilter === 'semua' ? 'Semua Film Horror' : `Film ${currentFilter.charAt(0).toUpperCase() + currentFilter.slice(1)}`);
+    
+    document.getElementById('sectionTitleText').textContent = titleText;
     renderMovies(filtered);
 }
 
