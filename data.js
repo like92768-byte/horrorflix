@@ -44,18 +44,18 @@ const MOVIES = [
 
     {
         id: 3,
-        judul: "Keramat",
-        tahun: 2009,
-        rating: "⭐ 6.8",
-        durasi: "123 min",
+        judul: "Alas Roban",
+        tahun: 2026,
+        rating: "⭐ 6.6",
+        durasi: "150 min",
         kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
-        poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/g0aWd2Nsbe7fdrsj9TjzitCF24a.jpg",
-        backdrop: "https://image.tmdb.org/t/p/original/nP5KtRVQDUoQMSkZJGaxpR9nmNn.jpg",
-        deskripsi: "Sebuah tim produksi film, berangkat dari Jakarta ke daerah Bantul Yogyakarta dalam rangka persiapan shooting film. Mereka membawa style kota besar, memasuki daerah yang disucikan dan keramat. Mengusik tabu, sehingga kejadian demi kejadian aneh mereka alami, sampai ke titik dimana calon pemeran utama wanita dirasuki roh halus, hingga hilang tanpa jejak.",
-        sinopsis: "Sekelompok pembuat film muda dari Jakarta tiba di Bantul, Yogyakarta untuk mempersiapkan pengambilan gambar. Semuanya berjalan normal hingga hari kedua ketika mereka mulai mengalami fenomena yang tidak dapat dijelaskan.",
-        trailerUrl: " ",
-        videoUrl: "https://www.cineby.sc/movie/259904?play=true"
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/ihFgCKVnucRZ0blLnrhihISxj8S.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/tTdzpseAzAuOEoRjeLOTBkTcLTH.jpg",
+        deskripsi: "kawasan hutan legendaris di Kabupaten Batang, Jawa Tengah. Terkenal sebagai jalur ekstrem, minim penerangan, dan rawan kecelakaan, hutan ini memiliki reputasi mistis yang kuat dan sering dikaitkan dengan kisah-kisah gaib.",
+        sinopsis: "Film ini mengikuti perjalanan Sita (Michelle Ziudith), seorang ibu tunggal asal Pekalongan yang mendapat pekerjaan di sebuah rumah sakit di Semarang demi mengubah nasib. Namun, kehidupannya berubah menjadi teror ketika ia dan putrinya, Gendis (Fara Shakila), diincar oleh roh jahat bernama Dewi Raras akibat sebuah perjanjian atau ritual masa lalu yang telah dilupakan.",
+        trailerUrl: "https://youtu.be/b23r0XvWW_Q?si=qQB9gYU_OyLuQ8U0",
+        videoUrl: "https://www.cineby.sc/movie/1497348?play=true"
     },
 
     {
@@ -169,6 +169,9 @@ const MOVIES = [
         trailerUrl: "https://youtu.be/gh9bmTwo9-I?si=paU5tZLVFIdWrO5I",
         videoUrl: "https://www.cineby.sc/movie/39067?play=true"
     },
+
+    
+
 
 
 
