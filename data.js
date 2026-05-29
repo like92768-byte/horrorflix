@@ -60,18 +60,18 @@ const MOVIES = [
 
     {
         id: 4,
-        judul: "Keramat 2: Caruban Larang",
-        tahun: 2022,
-        rating: "⭐ 6.1",
-        durasi: "131 min",
-        kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        judul: "Pabrik Gula",
+        tahun: 2025,
+        rating: "⭐ 5.9",
+        durasi: "212 min",
+        kategori: ["supernatural", "thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
-        poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/A8dWcUw0clsWARfUn6x8xzQbPKU.jpg",
-        backdrop: "https://image.tmdb.org/t/p/original/5FlYu17fSSR59rn33xZEB0UBqas.jpg",
-        deskripsi: "Keramat 2: Caruban Larang (2022) adalah film horor mokumenter (found footage) Indonesia garapan sutradara Monty Tiwa yang menjadi sekuel dari film Keramat (2009). Film ini memadukan atmosfer mencekam dengan sentuhan komedi natural khas generasi muda",
-        sinopsis: "Sekelompok anak muda dari Jakarta berangkat ke Cirebon dengan tujuan berbeda. Arla, Jojo, dan Maura ingin melakukan riset untuk tugas akhir mereka, yang dibantu oleh seorang pembuat film dokumenter bernama Umay. Sementara itu, Ajil dan Keanu adalah YouTuber horor yang membuat konten untuk mempertahankan hidup mereka. Perjalanan mereka menjadi liar dan tak terkendali setelah bertemu Ute, seorang anak indigo yang memiliki agenda rahasia.",
-        trailerUrl: "https://youtu.be/Zk5x99UyR5M?si=Bulq5AySnJkA-cBy",
-        videoUrl: "https://www.bilibili.tv/id/video/4796615149622784?bstar_from=bstar-web.homepage.recommend.all"
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/zd0X3QvyoO9qVezlGmXnSdew9A5.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/hbs4hMYkcUsmV95i1z1NncUINWC.jpg",
+        deskripsi: "film horor supranatural Indonesia garapan sutradara Awi Suryadi, yang diadaptasi dari kisah viral karya SimpleMan. Film ini mengisahkan teror mistis yang dialami oleh sekelompok buruh musiman di sebuah pabrik gula tua di pedesaan selama masa panen (musim giling tebu).",
+        sinopsis: "Cerita bermula pada tahun 2003 di sebuah pabrik gula tua di Jawa Timur. Wati menyusul tunangannya, Hendra, untuk bekerja sebagai buruh musiman demi mengumpulkan modal pernikahan. Di sana, mereka tinggal di loji bersama pekerja lainnya seperti Fadhil, Endah, dan Naning.",
+        trailerUrl: "https://youtu.be/nzDT9N1Ud_U?si=9ShRNlLnXIs5RsKr",
+        videoUrl: "https://www.cineby.sc/movie/1355126?play=true"
     },
 
     {
