@@ -170,7 +170,22 @@ const MOVIES = [
         videoUrl: "https://www.cineby.sc/movie/39067?play=true"
     },
 
-    
+    {
+        id: 11,
+        judul: "Dusun Mayit",
+        tahun: 2025,
+        rating: "⭐ 4.3",
+        durasi: "134 min",
+        kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/zlKdRrgDkMnnENPK2VRBLdlnteF.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/rgC6Vz3PZPEepbas7gCZRLxWMYD.jpg",
+        deskripsi: "mengisahkan empat mahasiswa—Aryo, Nita, Yuni, dan Raka—yang mendaki Gunung Welirang. Petualangan mereka berubah menjadi teror mematikan setelah Nita tidak sengaja melanggar pantangan dan tersesat di sebuah desa gaib penuntut tumbal yang haus nyawa",
+        sinopsis: "Empat sahabat—Aryo, Nita, Yuni (Amanda Manopo), dan Raka—memanfaatkan waktu libur untuk mendaki Gunung Welirang. Situasi berubah menjadi mimpi buruk setelah Nita secara tidak sengaja menemukan sesajen dan jatuh ke sebuah telaga.",
+        trailerUrl: "https://www.imdb.com/video/vi1895549721/?playlistId=tt37501704&ref_=tt_ov_pr_ov_vi",
+        videoUrl: "https://www.cineby.sc/movie/1505183?play=true"
+    },
+
 
 
 
