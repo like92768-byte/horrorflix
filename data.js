@@ -186,6 +186,23 @@ const MOVIES = [
         videoUrl: "https://www.cineby.sc/movie/1505183?play=true"
     },
 
+    {
+        id: 12,
+        judul: "Sosok Ketiga: Lintrik",
+        tahun: 2025,
+        rating: "⭐ 5.4",
+        durasi: "159 min",
+        kategori: ["supernatural","thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/4JIlWFhWFBYu5HNp7Y2FQOvrKcR.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1066_and_h600_face/uUAdoNl5uPtjFP8APmFHaZ59HVY.jpg",
+        deskripsi: "film horor-drama Indonesia yang menggabungkan konflik rumah tangga dengan klenik mistis Jawa. Film ini dibintangi oleh Adinda Thomas, Wafda Saifan Lubis, dan Aulia Sarah.",
+        sinopsis: "Cerita berfokus pada pasangan muda, Andin dan Ario, yang baru menikah selama enam bulan. Keharmonisan rumah tangga mereka mulai retak ketika Andin merasakan berbagai keanehan dan teror gaib.",
+        trailerUrl: "https://youtu.be/FWVykcqS2d0?si=XNcM9R6UzV9-LUO7",
+        videoUrl: "https://www.cineby.sc/movie/1440100?play=true"
+    },
+
+
 
 
 
