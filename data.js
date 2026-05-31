@@ -176,7 +176,7 @@ const MOVIES = [
         tahun: 2025,
         rating: "⭐ 4.3",
         durasi: "134 min",
-        kategori: "supernatural",  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kategori: ["supernatural","thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
         poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/zlKdRrgDkMnnENPK2VRBLdlnteF.jpg",
         backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/rgC6Vz3PZPEepbas7gCZRLxWMYD.jpg",
