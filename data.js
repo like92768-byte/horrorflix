@@ -202,6 +202,23 @@ const MOVIES = [
         videoUrl: "https://www.cineby.sc/movie/1440100?play=true"
     },
 
+    {
+        id: 13,
+        judul: "Muslihat",
+        tahun: 2025,
+        rating: "⭐ 7.2",
+        durasi: " min",
+        kategori: "supernatural",  // pilihan: supernatural, thriler, psikologis, zombie, demon
+        kualitas: "HD",
+        poster: "https://media.themoviedb.org/t/p/w440_and_h660_face/l65DDH2WKHKXnc5FJTGHvYrrJkS.jpg",
+        backdrop: "https://media.themoviedb.org/t/p/w1000_and_h563_face/v0fcOIGdL7iA6nVfNxV67D9ne9z.jpg",
+        deskripsi: "film horor religi Indonesia yang disutradarai oleh Chairun Nissa dan dirilis pada 17 April 2025.",
+        sinopsis: "Cerita berfokus pada kakak-beradik, Jihan (Asmara Abigail) dan Syafa (Ajeng Giona), yang pindah ke sebuah panti asuhan tua di tengah hutan setelah orang tua mereka tewas kecelakaan. Di sana, mereka justru menghadapi teror iblis penunggu panti. Syafa kemudian mengalami kesurupan hebat.",
+        trailerUrl: "https://youtu.be/Se_bk_AXnZE?si=gIIa81Sagm8ZFhcz",
+        videoUrl: "https://www.cineby.sc/movie/1293227?play=true"
+    },
+
+
 
 
 
