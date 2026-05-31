@@ -144,7 +144,7 @@ const MOVIES = [
         tahun: 2019,
         rating: "⭐ 6.5",
         durasi: " 139 min",
-        kategori: ["demon", "thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
+        kategori: ["supernatural", "thriler"],  // pilihan: supernatural, slasher, psikologis, zombie, demon
         kualitas: "HD",
         poster: "https://image.tmdb.org/t/p/original/6ccXFawnYknVMYkcCL30QhEm73j.jpg",
         backdrop: "https://image.tmdb.org/t/p/original/YNecU1qZ5kMbAEQ6KmBSI7PCMo.jpg",
